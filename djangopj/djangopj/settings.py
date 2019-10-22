@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'myapp.apps.MyappConfig', #myapp アプリケーションのMyappConfigの指定
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
